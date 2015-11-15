@@ -12,7 +12,7 @@ For eslint: see https://github.com/eslint/eslint
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/pre-commit/mirrors-eslint
+    -   repo: git://github.com/fhnstephen/mirrors-eslint
         sha: ''  # Use the sha you want to point at
         hooks:
         -   id: eslint
