@@ -1,8 +1,8 @@
 {
     "name": "__dummy_package",
     "description": "Note: double curly-braces because python .format",
-    "version": "0.0.0",
+    "version": "1.9.1",
     "scripts": {
-        "preinstall": "npm install eslint@1.9.0 -g"
+        "preinstall": "npm install eslint@1.9.0 eslint-config-angular eslint-plugin-angular -g"
     }
 }
