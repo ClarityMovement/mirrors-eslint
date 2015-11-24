@@ -1,7 +1,7 @@
 {
     "name": "__dummy_package",
     "description": "Note: double curly-braces because python .format",
-    "version": "1.9.2"
+    "version": "1.9.2",
     "scripts": {
         "preinstall": "npm install eslint@1.9.0 eslint-config-angular eslint-plugin-angular eslint-plugin-jasmine -g"
     }
