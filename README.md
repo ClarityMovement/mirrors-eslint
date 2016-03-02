@@ -1,18 +1,11 @@
-eslint mirror
+gulp pre-commit
 ================
 
-Mirror of eslint package for pre-commit.
-
-For pre-commit: see https://github.com/pre-commit/pre-commit
-
-For eslint: see https://github.com/eslint/eslint
-
-
-### Using eslint with pre-commit
+### Using gulp pre-commit with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/fhnstephen/mirrors-eslint
+    -   repo: git@github.com:ClarityMovement/gulp-pre-commit.git
         sha: ''  # Use the sha you want to point at
         hooks:
-        -   id: eslint
+        -   id: gulp-pre-commit
